@@ -51,7 +51,7 @@ curl --location --request POST '{{MetadataEndpoint}}/v5/metadata?publicConnectio
 ## 2. Create/Update a file called "config.json".
 
 In root folder with the following JSON:
-```JSON
+```
 {
   "metadataId": "", //Use metadata created in the step #1
   "dataloadApi": "<Dataload API>", // Example: https://<API ID>.execute-api.<region>.amazonaws.com
@@ -63,7 +63,7 @@ In root folder with the following JSON:
 
 Update the optionsAPI variable inside index.js file to execute the request and get the data to load on Qrvey.
 
-```JSON
+```
 const optionsAPI = {
     hostname: 'openlibrary.org',
     port: 443,
