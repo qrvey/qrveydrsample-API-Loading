@@ -1,0 +1,19 @@
+{
+  "name": "qrveydrsample-api-loading",
+  "version": "1.0.0",
+  "description": "This is a sample to load data to Qrvey from a API call.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrvey/qrveydrsample-API-Loading.git"
+  },
+  "author": "QRVEY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qrvey/qrveydrsample-API-Loading/issues"
+  },
+  "homepage": "https://github.com/qrvey/qrveydrsample-API-Loading#readme"
+}
