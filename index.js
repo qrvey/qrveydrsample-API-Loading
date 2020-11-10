@@ -1,9 +1,8 @@
 const https = require('https');
-const { config } = require('process');
 const config = require('./config.json');
 
 const metadataId = config.metadataId;
-const dataloadApi = config.dataloadApi;
+const postdataurl = config.postdataurl;
 const apikey = config.apikey;
 
 const optionsAPI = {
@@ -58,8 +57,8 @@ const sendDataToDataRouter = async (data) => {
     return new Promise((resolve, reject) => {
         var options = {
             method: 'POST',
-            hostname: dataloadApi,
-            path: '/Prod/dataload/v1/postdata',
+            hostname: postdataurl,
+            path: '/v1/postdata',
             headers: {
                 'Content-Type': 'application/json',
                 'x-api-key': apikey

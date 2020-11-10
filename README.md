@@ -54,7 +54,7 @@ In root folder with the following JSON:
 ```
 {
   "metadataId": "", //Use metadata created in the step #1
-  "dataloadApi": "<Dataload API>", // Example: https://<API ID>.execute-api.<region>.amazonaws.com
+  "postdataurl": "<postdataurl>", // Example: https://<API ID>.execute-api.<region>.amazonaws.com/Prod/dataload
   "apikey": "<API key>"
 }
 ```
