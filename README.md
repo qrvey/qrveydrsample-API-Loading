@@ -5,8 +5,8 @@ Qrvey DataRouter provides developers with a means for loading their data from a 
 
 # Prerequisites
 Before using this sample, please have the following values
-1. Metadata API URL. Contact help@qrvey.com if you don't have one.
-2. Dataload API URL. Contact help@qrvey.com if you don't have one.
+1. Metadata URL. Contact help@qrvey.com if you don't have one.
+2. Postdata URL. Contact help@qrvey.com if you don't have one.
 3. Datarouter API Key
 
 # Installation
@@ -23,7 +23,7 @@ Create the metadata specifying the fields and data types.
 Example:
 
 ```
-curl --location --request POST '{{MetadataEndpoint}}/v5/metadata?publicConnection=true' \
+curl --location --request POST '{{metadataurl}}/v5/metadata?publicConnection=true' \
 --header 'x-api-key: {{api-key}}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
